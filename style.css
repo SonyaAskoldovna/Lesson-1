@@ -1,0 +1,488 @@
+body{
+    margin: 0;
+}
+header{
+    height: 300px;
+    background-color: black;
+}
+.HList{
+    display: flex;
+    justify-content: left;
+    align-items: center ;
+    color: white;
+}
+.HLine{
+    height: 60px;
+    margin: 0 50px 0 50px;
+}
+.HLogin, .HCard , .HSupport{
+    width: 150px;
+}
+.HLogin , .HCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Inter{
+    width: 20px;
+    height: 20px;
+    color: aliceblue;
+}
+.HSearch{
+    height: 60px;
+    width: 1000px;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+.Button1{
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+.Button1:hover{
+    transition: 0.5s;
+    background-color: #707070;
+}
+.Button2{
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+.Button2:hover{
+    transition: 0.5s;
+    background-color: #707070;
+}
+.Button3{
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+.Button3:hover{
+    transition: 0.5s;
+    background-color: #707070;
+}
+.Buttons{
+    display: flex;
+    justify-content:left;
+    margin-left: 70px;
+}
+.Buttons>div{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+main{
+    background-color: black;
+    height: 3700px;
+}
+.ImgAnim:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+.MainAnim>div>p{
+    color: white;
+    text-align: center;
+    width: 150px;
+    font-size: 25px;
+}
+.MainAnim{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.MainFon{
+    width: 1500px;
+    height: 700px;
+}
+.Knopka{
+    height: 70px;
+    width: 500px;
+    background-color: #321126;
+    color: aliceblue;
+}
+.AAA{
+    height: 550px;
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-size: 100%;
+    border-radius: 15px;
+    background-image: url(images/Frame\ of\ makeup\ brushes\ and\ cosmetic.jpg);
+}
+.Novinki{
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke: 1px #000000;
+    font-weight: 800;
+}
+.Blocks{
+
+    color: aliceblue;
+}
+.ImgAnim{
+    justify-content: space-evenly;
+}
+.Blocks>div{
+    display: flex;
+    align-items: center;
+}
+.Spisok{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Spisok2{
+    color: aliceblue;
+    font-weight: 700;
+}
+.Spisok3{
+    color: aliceblue;
+    font-weight: 700;
+}
+.Spisok4{
+    
+    color: aliceblue;
+    font-weight: 700;
+}
+.Foto{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px; 
+}
+.Fon{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 50px;
+    border-radius: 25px;
+}
+.Foto>li{
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+.MText{
+    font-weight: 800;
+}
+.Otz1{
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.Otz2{
+    color: #fff;
+    width: 260px;
+    text-align: center;
+}
+.Otzyv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Reviews{
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+}
+.stars{
+    width: 180px;
+}
+.Ime{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+.Text{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+.AllRewies{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 100px 0 100px;
+}
+.Otzyvy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Volosy{
+    background-color: #e8a4c4;
+    width: 50%;
+    height: 300px;
+    margin: 40px;
+    color: #4a0326;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.Bold2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Bold3{
+    margin: 10px 0 10px 0;
+    padding-left: 90px;  
+}
+.Bold{
+    font-weight: bold;
+}
+.Lico{
+    background-color: #e8a4c4;
+    width: 50%;
+    height: 300px;
+    margin: 40px;
+    color: #4a0326;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.Bold2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Bold3{
+    margin: 10px 0 10px 0;
+    padding-left: 100px;  
+}
+.Bold2{
+    font-weight: bold;
+    padding-left: 100px;
+}
+.Main3{
+     display: flex;
+}
+.Tovar{
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    margin: 50px;
+    margin-left: 70px;
+}
+.pomada{
+    display: flex;
+    background-color: #7d0881;
+    padding: 20px;
+    border-radius: 10px;
+}
+.PomadaLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.pomada1{
+    color: #fff;
+    font-size: 30px;
+}
+.pomada2{
+    color: rgb(82, 194, 147);
+    font-size: 25px;
+    font-weight: 700;
+}
+.Text2>p{
+    display: flex;
+}
+.pomada3{
+    color: rgb(245, 252, 249);
+    font-size: 25px;
+    font-weight: 700;
+}
+.imgTovar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+}
+.All{
+    display: flex;
+    justify-content: space-evenly;
+}
+.MFoto{
+    margin-left: 300px;
+    padding-top: 70px;
+}
+.ImgHover{
+    transition: 0.5s;
+}
+.ImgHover:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+footer{
+    background-color:#ae4d85;
+    color: #f2dfdf;
+    padding: 50px 0 50px 0;
+}
+.Logo{
+    font-size: 25px;
+    font-weight: 700;
+}
+.FList{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.FList>ul{
+    list-style: none;
+}
+.Line{
+    width: 75%;
+}
+.FMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.FMedia>img{
+    width: 40px;
+    margin: 0 10px 0 10px;
+}
+.FTitle{
+    font-size: 25px;
+    text-align: center;
+}
+@media(max-width: 630px){
+    .None{
+        display: none;
+    }
+    .HSearch{
+        width: 200px;
+    }
+    .Fon{
+        width: 100px;   
+        height: 100px;
+    }
+    .Foto{
+        flex-wrap: wrap;
+    }
+    .Foto>li{
+        margin: 10px;
+    }
+    .Buttons{
+        margin-left: 20px;
+    }
+    .Knopka{
+        width: 90px;
+    }
+    .AAA{
+        height: 280px;
+    }
+    .Blocks{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Main3{
+        text-align: center;
+    }
+    .Blocks>div{
+        margin: 10px;
+    }
+    .Spisok{
+        flex-direction: column;
+        
+    }
+    .Spisok2, .Spisok3, .Spisok4{
+        display: none;
+    }
+    .Otzyv{
+        margin: 15px;
+        width: 30px;
+    }
+    .Otzyvy{
+        margin-left: 55px;
+    }
+    .Lico2{
+       display: none;
+    }
+    .Volosy{
+        width: 250px;
+    }
+    .ImgVls{
+        display: none;
+    }
+    .Lico{
+        width: 250px;
+    }
+    .HLine{
+        display: none;
+    }
+    .HLogin{
+        display: none;
+    }
+    .HCard{
+        display: none;
+    }
+    .pomada{
+        padding: 20px;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-right: 10px;
+        width: 200px;
+    }
+    .PoMADA{
+        width: 190px;
+        height: 130px;
+    }
+    .MFoto{
+        margin-left: 0px;
+        width: 300px;
+        display: flex;
+    }
+    .Bold3{
+       font-size: 20px;
+       padding: 0;
+       padding-right: 90px;
+       width: 50px;
+    }
+    .Bold2{
+       padding: 0;
+       padding-right: 90px;
+       width: 50px;
+    }
+    .HSupport{
+        width: 20px;
+    }
+    .Bold3{
+        font-size:small;
+    }
+    .Volosy>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Lico>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
